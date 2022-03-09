@@ -17,7 +17,6 @@ class SampleTest {
         Assertions.assertThat(sa.op(ADD, 5, 7)).isEqualTo(12);
         Assertions.assertThat(sa.op(MULT, 5, 7)).isEqualTo(35);
     }
-
     @Test
     void fact() {
         Sample sa = new Sample();
